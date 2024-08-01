@@ -24,3 +24,8 @@ nav
     border-radius: 10px;
     
 }
+.searchInput{
+   border: none;
+   background-color: transparent;   
+}
+
