@@ -1,5 +1,26 @@
-::selection
+body{
+    padding: 0;
+    margin: 0;
+}
+nav
 {
-    background: #FFD700;
-    color: red;
+    background-color: black;
+    color: white;
+    padding: 20 50;   
+}
+
+.navTop{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.search
+{
+    display: flex;
+    align-items: center;
+    background-color: gray;
+    padding:10px 20px;
+    border-radius: 10px;
+    
 }
