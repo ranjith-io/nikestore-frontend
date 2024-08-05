@@ -56,7 +56,7 @@ nav
     background: url("https://images.unsplash.com/photo-1685083036312-0cdf1b621c1f?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fHdhbGwlMjBiYWNrZ3JvdW5kfGVufDB8fDB8fHww");
     background-size: cover;
     overflow: hidden;
-    /* clip-path: polygon(0 0, 100% 0, 100% 100%, 0 85%); */
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 85%);
 }
 
 .sliderWrapper{
@@ -160,3 +160,31 @@ nav
     .sliderItem:nth-child(5) .sliderPrice{
         background-color: red;
     }
+
+    .features
+    {
+        display: flex;
+        align-items: center;
+        justify-content:space-between;
+        padding: 50px 100px;
+    }
+
+    .feature{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .featureTitle{
+        font-size: 20;
+        font-weight: 600;
+        margin: 20px;
+    }
+    .featureDesc{
+        color:gray;
+        width: 50%;
+        height: 100px;
+        
+    }
+
