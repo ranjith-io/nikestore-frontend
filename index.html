@@ -44,21 +44,21 @@
                 <div class="sliderpg"></div>
                 <h1 class="sliderTitle">AIR FORCE <br>NEW SEASON </h1>
                 <h2 class="sliderPrice">35000</h2>
-                <button class="buybutton">BUY NOW!</button>
+                <a href="#product" ><button class="buybutton">BUY NOW!</button></a>
             </div>
             <div class="sliderItem">
                 <img src="img/jordan.png" alt="" class="sliderImg">
                 <div class="sliderpg"></div>
                 <h1 class="sliderTitle">AIR JORDAN <br>NEW SEASON</h1>
                 <h2 class="sliderPrice">30000</h2>
-                <button class="buybutton">BUY NOW!</button>
+                <a href="#product" ><button class="buybutton">BUY NOW!</button></a>
             </div>
             <div class="sliderItem">
                 <img src="img/blazer.png" alt="" class="sliderImg">
                 <div class="sliderpg"></div>
                 <h1 class="sliderTitle">AIR BLAZER<br>NEW SEASON </h1>
                 <h2 class="sliderPrice">35000</h2>
-                <button class="buybutton">BUY NOW!</button>
+                <a href="#product" ><button class="buybutton">BUY NOW!</button></a>
             </div>
             
             <div class="sliderItem">
@@ -66,14 +66,14 @@
                 <div class="sliderpg"></div>
                 <h1 class="sliderTitle">AIR CRATER <br>NEW SEASON </h1>
                 <h2 class="sliderPrice">45000</h2>
-                <button class="buybutton">BUY NOW!</button>
+                <a href="#product" ><button class="buybutton">BUY NOW!</button></a>
             </div>
             <div class="sliderItem">
                 <img src="img/hippie.png" alt="" class="sliderImg">
                 <div class="sliderpg"></div>
                 <h1 class="sliderTitle">AIR HIPPIE <br>NEW SEASON </h1>
                 <h2 class="sliderPrice">25000</h2>
-                <button class="buybutton">BUY NOW!</button>
+                <a href="#product" ><button class="buybutton">BUY NOW!</button></a>
             </div>
         </div>
 
@@ -100,7 +100,7 @@
             <span class="featuredesc">Feel Free to give some Feedback</span>
         </div>
     </div>
-    <div class="product">
+    <div class="product" id="product">
         <img src="./img/air.png" alt="" class="productImg">
         <div class="productDetails">
             <h1 class="productTitle">AIR FORCE</h1>
@@ -119,7 +119,34 @@
                 <div class="size">43</div>
             </div>
             <button class="productButton">Buy Now!</button>
-    </div>
+        </div>
+        <div class="payment">
+            <h1 class="payTitle">Personal Information</h1>
+            <hr>
+            <label >Name and Surname</label>
+            <input placeholder="John Doe"  type="text" class="payInput">
+            <label >Email</label>
+            <input placeholder="xyz@hotmail.com" type="text" class="payInput">
+            <label >Phone Number</label>
+            <input placeholder="+12 3456 789" type="text" class="payInput">
+            <label >Address</label>
+            <input placeholder="123 , 5th cross,New York" type="text" class="payInput">
+            <h1 class="payTitle">Card Information</h1>
+            <div class="cardIcons">
+                <img src="./img/visa.png" alt="logo visa" width="40" class="CardIcon">
+                <img src="./img/master.png" alt="logo mastercard" width="40"  class="CardIcon">
+            </div>
+            <input type="password" class="payInput" placeholder="Card Number">
+            <div class="cardInfo">
+                <input placeholder="mm" type="text" class="payInput sm">
+                <input placeholder="yyyy" type="text" class="payInput sm">
+                <input placeholder="cvv" type="text" class="payInput sm">
+
+            </div>
+            <button class="payButton">Checkout!</button>
+            <span class="close">x</span>
+        </div>
+          
     </div>
     <script src="./app.js"></script>
 
