@@ -187,4 +187,94 @@ nav
         height: 100px;
         
     }
+    .product{
+        height: 100vh;
+        background-color: cyan;
+        position: relative;
+        clip-path: polygon(0 5%, 100% 0, 100% 100%, 0% 100%);
+    }
+    .productImg{
+        width:50%;
+        
+    }
+    .productDetails{
+        position: absolute;
+        top: 10%;
+        right: 0;
+        width: 40%;
+        padding :50px;
+    }
+    .productTitle{
+        font-size: 75;
+        font-weight: 900;
+        /* margin: 20px; */
+    }
+    .productPrice{
+        display: inline;
+        background-color:black;
+        padding:5px;
+        border-radius: 5px;
+        color:white;
+       
+        margin: 20px solid black;
+    }
+    .productPrice:hover{
+        background-color:green;
+        color:pink;
+    }
+    .productDesc{
+        font-size: 24px;
+        color:gray;
+    }
+    .colors,.sizes
+    {
+        display: flex;
+        margin-bottom: 20px;
+        
+        
+    }
+    .color{
+        width: 30px;
+        height: 30px;
+        border-radius: 20px;
+        background-color:red;
+        margin-right: 10px;
+        cursor: pointer;
+
+    }
+    .color:last-child{
+        background-color: darkblue; 
+    }
+    .size{
+        padding: 5px 20px;
+        border: 1px solid black;
+        border-radius:10px;
+        margin-right: 10px;
+        cursor: pointer;
+        font-size: 20px;
+
+
+    }
+    .size:hover{
+        background-color: black;
+        color:white;
+    }
+    .productButton{
+        border: 1px solid black;
+        float: right;
+        padding: 10px 20px;
+        background-color: black;
+        color: white;
+        font-weight: 600;
+        cursor: pointer;
+    }
+    .productButton:hover{
+        background-color: white;
+        color: black;
+        border-color: black;
+    }
+
+
+        
+    
 
