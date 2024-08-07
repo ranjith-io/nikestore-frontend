@@ -115,7 +115,7 @@ currentProductColors.forEach((color,index)=>{
         currentProductImg.src=choosenProduct.colors[index].img;
     });
 });
-currentProductSizes.forEach((size,index)=>{
+currentProductSizes.forEach((size)=>{
     size.addEventListener('click',()=>{
       currentProductSizes.forEach((size)=>{
         size.style.backgroundColor="white";
@@ -125,4 +125,16 @@ currentProductSizes.forEach((size,index)=>{
       size.style.color="white";
      
     });
+});
+
+const powerButton=document.querySelector(".productButton");
+const payButton=document.querySelector('.payment');
+const close=document.querySelector('.close');
+
+powerButton.addEventListener('click',()=>{
+  payButton.style.display="flex";
+});
+
+close.addEventListener('click',()=>{
+  payButton.style.display="none"
 });
