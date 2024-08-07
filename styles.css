@@ -347,11 +347,12 @@ nav
         
         flex:1;
         display: flex;
+        flex-direction: column;
         justify-content: space-between;
-        padding:40px;
+        padding:40 0 40 0;
+        
     }
-    
-    
+  
     .fMenuList
     {
         list-style: none;
@@ -369,6 +370,37 @@ nav
         font-size: 16px;
          
     }
+    .fInput
+    {
+        padding:5px;
+    }
+    .fButton
+    {
+        padding:5px;
+        background-color: black;
+        color:white;
+
+    }
+    .fIcons
+    {
+        display: flex;
+    }
+    .fIcon
+    {
+        /* width:20; */
+        height: 20;
+        margin-right: 10px;
+    }
+    .copyright
+    {
+        font-weight: 300;
+        font-size: 18px;
+        color:gray;
+        text-decoration: underline;
+    }
+
+   
+
 
     
     
@@ -454,6 +486,23 @@ nav
         color: black;
         border-color: green;
     }
+    @media screen and (max-width:480px){
+
+    nav {
+        padding: 20px;
+    };
+    .search{
+        display: none;
+    }
+    .menuItem{
+        margin:20px;
+        font-weight: 700;
+        font-size: 20px;
+
+    }
+};
+        
+    
 
 
         
