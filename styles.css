@@ -330,7 +330,45 @@ nav
         padding: 10px 20px;
         cursor: pointer;
     }
+    footer
+    {
+        display:flex;
 
+    }
+    .footerLeft
+    {
+        flex:2;
+        display: flex;
+        justify-content: space-between;
+        padding:40px;
+    }
+    .footerRight
+    {
+        
+        flex:1;
+        display: flex;
+        justify-content: space-between;
+        padding:40px;
+    }
+    
+    
+    .fMenuList
+    {
+        list-style: none;
+        padding:0;
+    }
+    .fListItem
+    {
+        margin-bottom: 8px;
+        color:gray;
+        cursor:poiter;
+    }
+
+    .fMenuTitle
+    {
+        font-size: 16px;
+         
+    }
 
     
     
